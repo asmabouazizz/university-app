@@ -1,0 +1,27 @@
+ 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.student-card {
+  width: 320px;
+  margin: 60px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #00000020;
+}
+
+h1 {
+  color: #1d4ed8;
+}
+
+h2 {
+  color: #334155;
+}
+
+p {
+  color: #475569;
+}

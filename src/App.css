@@ -2,26 +2,74 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f4f8;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.header {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+}
+
+.navbar {
+  background-color: #1e293b;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+main > h2 {
+  text-align: center;
+}
+
+.students-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .student-card {
-  width: 320px;
-  margin: 60px auto;
-  padding: 25px;
+  width: 250px;
+  padding: 20px;
   background-color: white;
   border-radius: 12px;
-  box-shadow: 0 4px 12px #00000020;
+  box-shadow: 0 4px 12px #00000015;
 }
 
-h1 {
+.student-card h2 {
   color: #1d4ed8;
 }
 
-h2 {
-  color: #334155;
+.student-card p {
+  overflow-wrap: anywhere;
 }
 
-p {
-  color: #475569;
+.footer {
+  padding: 20px;
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
 }

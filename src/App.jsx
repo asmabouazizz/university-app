@@ -12,18 +12,24 @@ function App() {
       nom: "Bouaziz",
       email: "asma@gmail.com",
       filiere: "GLSI",
+      Année: "2éme année",
+      Groupe: "A",
     },
     {
-      prenom: "Sarra",
-      nom: "Trabelsi",
-      email: "sarra@gmail.com",
+      prenom: "ali",
+      nom: "bouchnak",
+      email: "ali@gmail.com",
       filiere: "GLSI",
+      Année: "2éme année",
+      Groupe: "A",
     },
     {
-      prenom: "Mariem",
-      nom: "Khalfallah",
-      email: "mariem@gmail.com",
+      prenom: "teycir",
+      nom: "turqui",
+      email: "teycir@gmail.com",
       filiere: "GLSI",
+      Année: "2éme année",
+      Groupe: "A",
     },
   ];
 
@@ -43,6 +49,8 @@ function App() {
               nom={etudiant.nom}
               email={etudiant.email}
               filiere={etudiant.filiere}
+              Année={etudiant.Année}
+              Groupe={etudiant.Groupe}
             />
           ))}
         </div>

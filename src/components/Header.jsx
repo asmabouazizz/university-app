@@ -3,7 +3,7 @@ function Header() {
   return (
     <header className="header">
       <h1>ISI MAHDIA GLSI</h1>
-      <p>Gestion des étudiants</p>
+      <p>GLSI2-Année Universitaire 2026-2027</p>
     </header>
   );
 }
